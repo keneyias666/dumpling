@@ -21,7 +21,7 @@
 
         body {
             font-family: 'Montserrat', sans-serif;
-            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 50%, #90caf9 100%);
+            background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 50%, #ce93d8 100%);
             min-height: 100vh;
             display: flex;
             justify-content: center;
@@ -33,8 +33,8 @@
             background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
             border-radius: 30px;
-            box-shadow: 0 25px 70px rgba(100, 181, 246, 0.25);
-            border: 1px solid rgba(144, 202, 249, 0.3);
+            box-shadow: 0 25px 70px rgba(186, 104, 200, 0.25);
+            border: 1px solid rgba(206, 147, 216, 0.3);
             padding: 70px 50px;
             max-width: 650px;
             width: 100%;
@@ -58,7 +58,7 @@
             font-size: 90px;
             margin-bottom: 30px;
             animation: float 3s ease-in-out infinite;
-            filter: drop-shadow(0 5px 15px rgba(100, 181, 246, 0.3));
+            filter: drop-shadow(0 5px 15px rgba(186, 104, 200, 0.3));
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
         }
@@ -69,8 +69,8 @@
             margin: 0 auto 30px;
             border-radius: 20px;
             overflow: hidden;
-            box-shadow: 0 15px 40px rgba(100, 181, 246, 0.3);
-            border: 3px solid rgba(144, 202, 249, 0.4);
+            box-shadow: 0 15px 40px rgba(186, 104, 200, 0.3);
+            border: 3px solid rgba(206, 147, 216, 0.4);
         }
 
         .gif-container img {
@@ -87,7 +87,7 @@
 
         h1 {
             font-family: 'Cormorant Garamond', serif;
-            color: #1976d2;
+            color: #8e24aa;
             font-size: 48px;
             margin-bottom: 35px;
             font-weight: 300;
@@ -102,7 +102,7 @@
 
         .message {
             font-family: 'Cormorant Garamond', serif;
-            color: #42a5f5;
+            color: #ab47bc;
             font-size: 26px;
             line-height: 1.8;
             margin-bottom: 40px;
@@ -117,7 +117,7 @@
 
         .refresh-hint {
             font-family: 'Montserrat', sans-serif;
-            color: #64b5f6;
+            color: #ba68c8;
             font-size: 13px;
             font-weight: 300;
             letter-spacing: 1px;
@@ -130,7 +130,7 @@
         }
 
         .refresh-btn {
-            background: linear-gradient(135deg, #64b5f6 0%, #42a5f5 100%);
+            background: linear-gradient(135deg, #ba68c8 0%, #ab47bc 100%);
             color: white;
             border: none;
             padding: 16px 45px;
@@ -143,13 +143,13 @@
             cursor: pointer;
             transition: all 0.3s ease;
             margin-top: 25px;
-            box-shadow: 0 10px 30px rgba(100, 181, 246, 0.3);
+            box-shadow: 0 10px 30px rgba(186, 104, 200, 0.3);
         }
 
         .refresh-btn:hover {
             transform: translateY(-3px);
-            box-shadow: 0 15px 40px rgba(100, 181, 246, 0.4);
-            background: linear-gradient(135deg, #42a5f5 0%, #1976d2 100%);
+            box-shadow: 0 15px 40px rgba(186, 104, 200, 0.4);
+            background: linear-gradient(135deg, #ab47bc 0%, #8e24aa 100%);
         }
 
         .refresh-btn:active {
@@ -159,7 +159,7 @@
         .decorative-line {
             width: 60px;
             height: 1px;
-            background: linear-gradient(90deg, transparent, #90caf9, transparent);
+            background: linear-gradient(90deg, transparent, #ce93d8, transparent);
             margin: 30px auto;
         }
     </style>
@@ -179,26 +179,26 @@
     </div>
 
     <script>
-        // Array of messages - customize these to your liking!
+        // Array of messages - quirky and short sweet messages!
         const messages = [
-            "Happy monthsary, my little dumpling — you're my favorite orbit in this whole galaxy.",
-            "You're the brightest star in my universe, and I'll never stop stargazing at you.",
-            "My heart does a little moon-bounce every time you smile.",
-            "You're my cosmic comfort — soft as a dumpling, warm as starlight.",
-            "Even the stars envy the sparkle you bring into my nights.",
-            "You and I? We're a love story written in constellations.",
-            "The universe must've conspired to wrap an entire galaxy inside in one cute dumpling — you.",
-            "You made my world spin in the sweetest orbit, after a month.",
-            "Our love is like gravity — gentle, inevitable, and always pulling me back to you.",
-            "You're my favorite celestial snack — my dumpling from the stars called 'starpling.'",
-            "Here's to a month of floating through the cosmos hand in hand.",
-            "You're my moonlight in human form — glowing, soft, and endlessly beautiful.",
-            "A month with you feels like discovering a new planet made of pure joy.",
-            "If I could, I'd lasso a star just to say, 'I love  you my dumpling'",
-            "We're just two hearts in orbit — and I never want our gravity and law of attraction to fade."
+            "You're my favorite weirdo in the entire galaxy.",
+            "My heart does a little bounce every time you smile.",
+            "You're like starlight — bright, warm, and impossible to ignore.",
+            "Even the moon is jealous of how you light up my world.",
+            "You're my cosmic comfort and my favorite chaos.",
+            "We're just two hearts orbiting each other.",
+            "You make gravity feel romantic.",
+            "You're softer than moonlight and sweeter than stardust.",
+            "The universe definitely has favorites, and you're mine.",
+            "You're my favorite kind of magic.",
+            "Falling for you was the best collision.",
+            "You're the sparkle in my night sky.",
+            "My heart picked you and hasn't stopped since.",
+            "You're my favorite plot twist.",
+            "With you, even silence feels like a conversation."
         ];
 
-        const emojis = ["🥟", "🌙", "⭐", "✨", "💫", "🌟", "🪐", "🌌", "🩵", "🌠"];
+        const emojis = ["💜", "🌙", "⭐", "✨", "💫", "🌟", "🪐", "🌌", "💗", "🌠"];
 
         // Array of romantic/cosmic GIFs from Giphy
         const gifs = [
@@ -239,4 +239,3 @@
     </script>
 </body>
 </html>
-
